@@ -303,9 +303,9 @@ git push origin feature/AmazingFeature
 <small>Made with ❤️ by the FormulaForge Team(Which is Me)</small>
 </p>
 
-<a href="https://github.com/Fauzananam/FormulaForge/issues"><img src="https://img.shields.io/github/issues/yourusername/FormulaForge?style=flat-square" alt="Issues"/></a>
-<a href="https://github.com/Fauzananam/FormulaForge/network/members"><img src="https://img.shields.io/github/forks/yourusername/FormulaForge?style=flat-square" alt="Forks"/></a>
-<a href="https://github.com/Fauzananam/FormulaForge/stargazers"><img src="https://img.shields.io/github/stars/yourusername/FormulaForge?style=flat-square" alt="Stars"/></a>
-<a href="https://github.com/Fauzananam/FormulaForge/blob/master/LICENSE"><img src="https://img.shields.io/github/license/yourusername/FormulaForge?style=flat-square" alt="License"/></a>
+<a href="https://github.com/Fauzananam/Formula-Forge/issues"><img src="https://img.shields.io/github/issues/yourusername/FormulaForge?style=flat-square" alt="Issues"/></a>
+<a href="https://github.com/Fauzananam/Formula-Forge/network/members"><img src="https://img.shields.io/github/forks/yourusername/FormulaForge?style=flat-square" alt="Forks"/></a>
+<a href="https://github.com/Fauzananam/Formula-Forge/stargazers"><img src="https://img.shields.io/github/stars/yourusername/FormulaForge?style=flat-square" alt="Stars"/></a>
+<a href="https://github.com/Fauzananam/Formula-Forge/blob/master/LICENSE"><img src="https://img.shields.io/github/license/yourusername/FormulaForge?style=flat-square" alt="License"/></a>
 
 </div>
