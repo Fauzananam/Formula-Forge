@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Sum if condition",
+    "query": "Sum values in column A where column B is 'Yes'"
+  },
+  {
+    "title": "Average with condition",
+    "query": "Average values in column C where column D is 'Active'"
+  }
+]

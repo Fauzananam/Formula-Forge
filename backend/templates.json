@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Sum if condition",
+    "query": "Sum values in column A where column B equals Yes"
+  },
+  {
+    "title": "Average with condition",
+    "query": "Average values in column C where column D is greater than 100"
+  },
+  {
+    "title": "Count matches",
+    "query": "Count cells in column E where column F equals Completed"
+  },
+  {
+    "title": "VLOOKUP",
+    "query": "find value from column A where column B equals Sales and return column D"
+  },
+  {
+    "title": "HLOOKUP",
+    "query": "horizontal find value from row 1 where row 2 equals Total and return row 4"
+  },
+  {
+    "title": "INDEX MATCH",
+    "query": "find value in column C where column A equals B2"
+  },
+  {
+    "title": "Nested IF",
+    "query": "if column A equals High then Urgent else if column A equals Medium then Normal else Low"
+  },
+  {
+    "title": "Text Concatenate",
+    "query": "combine text from columns A, B and C"
+  },
+  {
+    "title": "Round Numbers",
+    "query": "round the values in column A to 2 decimal places"
+  },
+  {
+    "title": "Text Length",
+    "query": "get the length of text in column A"
+  },
+  {
+    "title": "Extract Text",
+    "query": "get the first 3 characters from column B"
+  },
+  {
+    "title": "Replace Text",
+    "query": "replace all Mr with Mrs in column C"
+  },
+  {
+    "title": "Case Conversion",
+    "query": "convert to uppercase in column D"
+  },
+  {
+    "title": "Multiple Conditions Sum",
+    "query": "sum values in column A where column B equals Yes and column C equals Active"
+  },
+  {
+    "title": "SUMIFS with Range",
+    "query": "sum values in column A where column B is greater than 100 and column C equals Active"
+  },
+  {
+    "title": "Jumlah dengan kondisi (ID)",
+    "query": "Jumlahkan nilai di kolom A di mana kolom B sama dengan Ya"
+  },
+  {
+    "title": "Rata-rata dengan kondisi (ID)",
+    "query": "Rata-rata dari kolom C di mana kolom D lebih besar dari 100"
+  },
+  {
+    "title": "Hitung sel (ID)",
+    "query": "Hitung sel di kolom E di mana kolom F sama dengan Selesai"
+  },
+  {
+    "title": "Pencarian data (ID)",
+    "query": "Cari nilai dari kolom A di mana kolom B sama dengan Penjualan dan kembali kolom D"
+  },
+  {
+    "title": "Kondisi bersarang (ID)",
+    "query": "Jika kolom A sama dengan Tinggi maka Penting jika tidak jika kolom A sama dengan Sedang maka Normal jika tidak Rendah"
+  },
+  {
+    "title": "Gabungkan teks (ID)",
+    "query": "Gabungkan teks dari kolom A, B dan C"
+  },
+  {
+    "title": "Pembulatan angka (ID)",
+    "query": "Bulatkan nilai di kolom A ke 2 angka desimal"
+  }
+]

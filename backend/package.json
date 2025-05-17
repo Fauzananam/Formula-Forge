@@ -1,0 +1,25 @@
+{
+  "name": "formulaforge-backend",
+  "version": "1.0.0",
+  "description": "Backend server for FormulaForge Excel formula generator",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint .",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.57.0",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.0.3",
+    "globals": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

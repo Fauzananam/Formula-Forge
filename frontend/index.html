@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FormulaForge - Excel Formula Generator</title>
+  <meta name="description" content="Generate Excel formulas from natural language using AI">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1><i class="fas fa-table"></i> FormulaForge</h1>
+      <p class="subtitle">Your AI-Powered Spreadsheet Assistant</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="input-section">
+      <form id="query-form" class="card">
+        <div class="form-group">
+          <label for="query">
+            <i class="fas fa-keyboard"></i>
+            What formula do you need?
+          </label>
+          <textarea 
+            id="query" 
+            placeholder="Example: Sum values in column A where column B is 'Yes'"
+            required></textarea>
+        </div>
+        <button type="submit" class="primary-button">
+          <i class="fas fa-wand-magic-sparkles"></i>
+          Generate Formula
+        </button>
+      </form>
+    </section>
+
+    <section id="output" class="card hidden">
+      <div class="output-header">
+        <h2><i class="fas fa-code"></i> Generated Formula</h2>
+        <button id="copy-formula" class="icon-button" title="Copy formula">
+          <i class="fas fa-copy"></i>
+        </button>
+      </div>
+      <pre id="formula" class="code-block"><span class="placeholder">Your formula will appear here...</span></pre>
+      
+      <div class="output-header">
+        <h2><i class="fas fa-book"></i> Explanation</h2>
+      </div>
+      <p id="explanation" class="explanation-text"><span class="placeholder">The explanation will appear here...</span></p>
+      <div id="error-state" class="error-message hidden">
+        <i class="fas fa-exclamation-circle"></i>
+        <p></p>
+      </div>
+    </section>
+
+    <section id="templates" class="card">
+      <div class="section-header">
+        <h2><i class="fas fa-lightbulb"></i> Formula Templates</h2>
+        <p class="section-description">Click on a template to get started quickly</p>
+      </div>
+      <ul id="template-list" class="template-grid"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <i class="fas fa-heart"></i>
+      Made with FormulaForge - 
+      <a href="https://github.com/yourusername/FormulaForge" target="_blank">
+        <i class="fab fa-github"></i>
+        GitHub
+      </a>
+    </p>
+  </footer>
+
+  <script src="/script.js"></script>
+  <script>
+    window.onerror = function(msg, url, line) {
+      console.error('Error: ' + msg + '\nURL: ' + url + '\nLine: ' + line);
+      document.getElementById('error-state').classList.remove('hidden');
+      document.getElementById('error-state').querySelector('p').textContent = 
+        'An error occurred. Please try again or contact support if the problem persists.';
+      return false;
+    };
+  </script>
+</body>
+</html>
